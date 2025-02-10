@@ -1,0 +1,26 @@
+.logo {
+  width: 40px; /* 로고 크기 조정 */
+  height: auto;
+  margin-left: 15rem;
+  border-radius: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* 흰색 텍스트 */
+  font-weight: bold; /* 굵은 글씨 */
+  font-size: 18px; /* 폰트 크기 */
+}
+
+.navbar {
+  padding: 10px; /* 패딩 조정 */
+}
+
+.custom-margin {
+  margin-right: 15rem;
+}
+
+.custom-navbar {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #262626;
+}

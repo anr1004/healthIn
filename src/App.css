@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  background-color: #262626; /* 배경색을 검정색으로 설정 */
+  min-height: 100vh; /* 전체 화면 높이를 차지하도록 설정 */
+  color: white; /* 텍스트 색상을 흰색으로 설정 (배경과 대비) */
+  position: relative;
+}
+
+.header-line {
+  padding-top: 94px; /* 헤더의 높이에 맞춰 패딩 추가 */
+  background-color: #262626; /* 배경색을 검정색으로 설정 (선택 사항) */  
+}
+
+.front-image {
+  width: 100%; /* 가로 크기를 전체로 설정 */
+  height: 100vh; /* 화면 높이로 설정 */
+  background-size: cover; /* 배경 이미지 크기 조정 */
+  background-position: top; /* 배경 이미지 상단 정렬 */
+  position: relative; /* 자식 요소의 절대 위치 설정을 위해 */
+  display: flex; /* Flexbox를 사용하여 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  color: white; /* 텍스트 색상 */
+  overflow: hidden; /* 아래 부분 잘리도록 설정 */
+  transition: background-image 0.5s ease-in-out; /* 배경 이미지 전환 효과 */
+}
+
+
+.image-text {
+  text-align: left; /* 텍스트를 왼쪽으로 정렬 */
+  padding-left : 15vh;
+}
+
+.image-text .font-style {
+  font-size: 50px;
+  font-weight: bold; /* 굵은 글씨 */
+}
+
+.sub-title {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden; /* 가로 방향 스크롤 숨기기 */
+}
+
+.App {
+  overflow-y: auto; /* 세로 방향 스크롤 허용 */
+  max-width: 100vw; /* 최대 너비를 화면 너비로 제한 */
+  margin: 0; /* 마진 초기화 */
+  padding: 0; /* 패딩 초기화 */
+}
+
+/* 스크롤바 스타일 */
+.scroll {
+  color: white;
+  font-family: 'Nanum Gothic';
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+
+/* 스크롤바 설정 */
+.scroll::-webkit-scrollbar {
+  width: 10px; /* 스크롤바 너비 */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(239, 242, 247, 0.1);
+  border-radius: 10px;
+  border: 2px solid #1f2845;
+}
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #1f2845;
+}
+
+.image-slider-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
