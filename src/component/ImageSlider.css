@@ -1,31 +1,30 @@
 .image-slider {
-  width: 80%; /* 슬라이더 너비를 100%로 설정 */
-  maring: 0 auto;
+  width: 80%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .slider-wrapper {
-  display: flex; /* 플렉스 박스로 설정하여 이미지 나열 */
-  width: calc(200px * 2 * tool_images.length); /* 전체 너비 계산 */
-  animation: slide 10s linear infinite; /* 애니메이션 효과 */
+  display: flex;
+  width: calc(200px * 2 * tool_images.length);
+  animation: slide 10s linear infinite;
 }
 
 .image-container {
-  margin-right: 20px; /* 이미지 간의 간격 설정 */
+  margin-right: 20px;
 }
 
 .slide-image {
-  width: 200px; /* 이미지 너비 지정 */
-  height: 110px; /* 이미지 높이 지정 */
-  object-fit: cover; /* 비율 유지하면서 잘리도록 설정 */
+  width: 200px;
+  height: 110px;
+  object-fit: cover;
 }
 
-/* 애니메이션 정의 */
 @keyframes slide {
   0% {
-    transform: translateX(0%); /* 처음 시작 위치 */
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%); /* 마지막 위치 */
+    transform: translateX(-100%);
   }
 }

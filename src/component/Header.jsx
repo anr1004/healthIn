@@ -13,10 +13,10 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto custom-margin d-flex gap-5">
-          <Nav.Link href="program">프로그램</Nav.Link>
-          <Nav.Link href="tool">시설</Nav.Link>
-          <Nav.Link href="trainer">트레이너</Nav.Link>
-          <Nav.Link href="location">지점 찾기</Nav.Link>
+          <Nav.Link href="#program">프로그램</Nav.Link>
+          <Nav.Link href="#tool">시설</Nav.Link>
+          <Nav.Link href="#trainer">트레이너</Nav.Link>
+          <Nav.Link href="#location">지점 위치</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

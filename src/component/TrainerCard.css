@@ -1,0 +1,25 @@
+.trainer-card {
+  background-color: rgb(61, 60, 60);
+  color: white;
+  border: none;
+  margin: 20px;
+  width: 42vh;
+}
+
+.trainer-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.trainer-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.trainer-description {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}

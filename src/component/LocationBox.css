@@ -1,0 +1,25 @@
+.location-card {
+  background-color: #4b4b4b;
+  color: white;
+  padding: 32px;
+}
+
+.location-title {
+  font-weight: bold;
+  text-align: left;
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+
+.location-text {
+  text-align: left;
+  font-weight: bold;
+}
+
+.inquiry-button {
+  background-color: transparent;
+  border-color: white;
+  display: block;
+  font-weight: bold;
+  color: white;
+}
